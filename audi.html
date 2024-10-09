@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi</title>
+</head>
+<body>
+    <h1>Audi</h1>
+    
+    <!-- Listado de coches -->
+    <div>
+        <img src="fotos/descarga.jpeg" alt="Audi Modelo 1" />
+        <form action="comprar.php" method="post">
+            <input type="hidden" name="coche" value="Audi Modelo 1">
+            <button type="submit">Comprar</button>
+        </form>
+    </div>
+    <div>
+        <img src="fotos/descarga1.jpeg" alt="Audi Modelo 2" />
+        <form action="comprar.php" method="post">
+            <input type="hidden" name="coche" value="Audi Modelo 2">
+            <button type="submit">Comprar</button>
+        </form>
+    </div>
+    
+    <!-- Enlace para ver el carrito y volver -->
+    <a href="ver_carrito.php">Ver mi carrito</a><br/><br/>
+    <a href="bienvenido.php">Volver al listado de marcas</a>
+</body>
+</html>
